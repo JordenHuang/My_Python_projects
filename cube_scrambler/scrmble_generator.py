@@ -352,12 +352,12 @@ class ScrambleImage:
         self.img.show()
 
 
-
+# Run with the code below
 if __name__ == '__main__':
-    generator = ScrmbleGenerator()
-    scramble = generator.scramble_3by3()
-    print(' '.join(scramble))
+    # generator = ScrmbleGenerator()
+    # scramble = generator.scramble_3by3()
+    # print(' '.join(scramble))
     
-    img = ScrambleImage(3)
-    img.image_3by3(scramble)
-    img.show(1250, 935)
+    # img = ScrambleImage(3)
+    # img.image_3by3(scramble)
+    # img.show(1250, 935)
