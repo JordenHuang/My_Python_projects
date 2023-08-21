@@ -2,7 +2,7 @@ import numpy as np
 import PIL.Image
 
 # open the source image
-image = PIL.Image.open('../cat_img.png', 'r')
+image = PIL.Image.open('cat_img.png', 'r')
 # image_info = image.info
 
 # turn it into numpy array
@@ -20,8 +20,7 @@ width, height = image.size
 pixels = img_array.size // channels
 
 # get the secret message from user
-# secret_msg = input('Enter the secret message: ')
-secret_msg = "Wow! You find the SECRET MESSAGE!\nai'you'bu'cuo',bei'ni'jie'chu'lai'le'\ntranslator: https://translate.google.com/?hl=zh-HK&sl=auto&tl=zh-TW&op=translate"
+secret_msg = input('Enter the secret message: ')
 
 
 # add the stop indicator to show where the msg stopped when decoding
